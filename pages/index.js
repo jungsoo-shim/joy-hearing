@@ -15,8 +15,6 @@ export default function Home() {
         <p>Site is under construction</p>
         <p>Please call 416-512-9292 for services</p>
       </main>
-
-      <Footer />
     </div>
   )
 }
