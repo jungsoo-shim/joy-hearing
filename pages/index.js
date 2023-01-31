@@ -4,16 +4,18 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div class="container">
       <Head>
         <title>Joy Hearing</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="px-4">
+        <div className="bg-white px-4">
         <h1>Joy Hearing</h1>
         <p>Site is under construction</p>
         <p>Please call 416-512-9292 for services</p>
+        </div>
       </main>
     </div>
   )
