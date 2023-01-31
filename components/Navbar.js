@@ -1,20 +1,40 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import a from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
  return (
   <>
-   <nav className='flex items-center space-x-4 flex-wrap bg-black text-white p-3'>
-    <Image src="/joy-hearing-logo.svg" width={40} height={40}/>
-    <Link href='/'>
-     Home
-    </Link>
-    <Link href='/'>
-     About
-    </Link>
-    <Link href='/'>
-     Contact
-    </Link>
+   <nav className="bg-white shadow px-2 py-3 flex justify-between items-center">
+
+    <div className="flex items-center">
+     <img className="h-10 px-3" src="/joy-hearing-logo.svg"/>
+
+     <h1 className="text-xl font-bold font-mono">Joy Hearing Aid</h1>
+    </div>
+
+    <div className="flex">
+     <a className="px-3 py-2 hover:bg-sky-200" href="/">
+      Home
+     </a>
+
+     <a className="px-3 py-2 hover:bg-sky-200" href="/about">
+      About
+     </a>
+
+     <a className="px-3 py-2 hover:bg-sky-200" href="/services">
+      Services
+     </a>
+
+     <a className="px-3 py-2 hover:bg-sky-200" href="/pricing">
+      Pricing
+     </a>
+
+     <a className="px-3 py-2 hover:bg-sky-200" href="/contact">
+      Contact
+     </a>
+
+    </div>
+
    </nav>
   </>
  )
