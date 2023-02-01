@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div class="container">
       <Head>
-        <title>Joy Hearing Aid Centre</title>
+        <title>Joy Hearing Aid Centre | North York, Toronto</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
