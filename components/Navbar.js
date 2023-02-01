@@ -9,7 +9,7 @@ export default function Navbar() {
     <div className="flex items-center">
      <img className="h-10 px-3" src="/joy-hearing-logo.svg"/>
 
-     <h1 className="text-xl font-bold font-mono">Joy Hearing Aid</h1>
+     <h1 className="text-xl font-mono">Joy Hearing Aid Centre</h1>
     </div>
 
     <div className="flex">
