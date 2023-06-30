@@ -13,23 +13,23 @@ export default function Navbar() {
     </div>
 
     <div className="flex">
-     <a className="px-3 py-2 hover:bg-sky-200" href="/">
+     <a className="px-3 py-2 hover:bg-slate-200" href="/">
       Home
      </a>
 
-     <a className="px-3 py-2 hover:bg-sky-200" href="/about">
+     <a className="px-3 py-2 hover:bg-slate-200" href="/about">
       About
      </a>
 
-     <a className="px-3 py-2 hover:bg-sky-200" href="/services">
+     <a className="px-3 py-2 hover:bg-slate-200" href="/services">
       Services
      </a>
 
-     <a className="px-3 py-2 hover:bg-sky-200" href="/pricing">
+     <a className="px-3 py-2 hover:bg-slate-200" href="/pricing">
       Pricing
      </a>
 
-     <a className="px-3 py-2 hover:bg-sky-200" href="/contact">
+     <a className="px-3 py-2 hover:bg-slate-200" href="/contact">
       Contact
      </a>
 
