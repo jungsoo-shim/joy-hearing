@@ -1,0 +1,12 @@
+pages/
+├── _app.js
+└── index.js
+
+1 directory, 2 files
+components/
+├── Footer.js
+├── Header.js
+├── Layout.js
+└── Navbar.js
+
+1 directory, 4 files
