@@ -1,10 +1,15 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Hero from '@components/Hero'
+import About from '@components/About'
+import Services from '@components/Services'
+import Pricing from '@components/Pricing'
+import Contact from '@components/Contact'
 
 export default function Home() {
   return (
-    <div class="container">
+    <div className="container">
       <Head>
         <title>Joy Hearing Aid Centre | North York, Toronto</title>
         <link rel="icon" href="/favicon.ico" />
@@ -12,9 +17,11 @@ export default function Home() {
 
       <main className="px-4">
         <div className="bg-white px-4">
-        <h1>Joy Hearing Aid Centre</h1>
-        <p>Site is under construction</p>
-        <p>Please call 416-512-9292 for services</p>
+          <Hero />
+          <About />
+          <Services />
+          <Pricing />
+          <Contact />
         </div>
       </main>
     </div>

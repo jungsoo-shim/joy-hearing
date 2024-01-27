@@ -12,7 +12,10 @@ export default function Navbar() {
      <h1 className="text-xl font-mono">Joy Hearing Aid Centre</h1>
     </div>
 
-    <div className="flex">
+    <div className="md:hidden">
+    </div>
+    
+    <div className="max-md:hidden flex">
      <a className="px-3 py-2 hover:bg-slate-200" href="#home">
       Home
      </a>
