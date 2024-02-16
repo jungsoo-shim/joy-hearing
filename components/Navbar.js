@@ -1,10 +1,11 @@
 import a from "next/link";
 import Image from "next/image";
+import BurgerMenuIcon from '@components/BurgerMenuIcon';
 
 export default function Navbar() {
  return (
   <>
-   <nav className="bg-white shadow px-2 py-3 flex justify-between items-center">
+   <nav className="w-screen position: fixed bg-white shadow px-2 py-3 flex justify-between items-center">
 
     <div className="flex items-center">
      <img className="h-10 px-3" src="/joy-hearing-logo.svg"/>
@@ -12,7 +13,10 @@ export default function Navbar() {
      <h1 className="text-xl font-mono">Joy Hearing Aid Centre</h1>
     </div>
 
-    <div className="md:hidden">
+    <div className="md:hidden hover:bg-slate-200">
+     <button>
+     <BurgerMenuIcon />
+     </button>
     </div>
     
     <div className="max-md:hidden flex">
