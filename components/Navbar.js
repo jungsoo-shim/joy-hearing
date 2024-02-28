@@ -4,6 +4,7 @@ export default function Navbar() {
 
  function toggleMenu() {
      var menu = document.getElementById("mobile-links");
+     var icon = document.getElementById("burger-icon");
      (menu.style.display === "block") ? menu.style.display = "none" : menu.style.display = "block"; 
  }
 
@@ -18,41 +19,41 @@ export default function Navbar() {
          <h1 className="text-xl font-mono">Joy Hearing Aid Centre</h1>
         </div>
 
-        <div className="py-3 flex items-center md:hidden hover:bg-slate-200">
+        <div className="mx-2 py-3 flex items-center md:hidden hover:bg-slate-300">
          <button onClick={toggleMenu}>
          <BurgerMenuIcon />
          </button>
         </div>
         
         <div className="mx-2 max-md:hidden flex">
-         <a className="px-3 py-5 hover:bg-slate-200" href="#home">
+         <a className=" px-3 py-5 hover:bg-slate-300" href="#home">
           Home
          </a>
 
-         <a className="px-3 py-5 hover:bg-slate-200" href="#about">
+         <a className="px-3 py-5 hover:bg-slate-300" href="#about">
           About
          </a>
 
-         <a className="px-3 py-5 hover:bg-slate-200" href="#services">
+         <a className="px-3 py-5 hover:bg-slate-300" href="#services">
           Services
          </a>
 
-         <a className="px-3 py-5 hover:bg-slate-200" href="#pricing">
+         <a className="px-3 py-5 hover:bg-slate-300" href="#pricing">
           Pricing
          </a>
 
-         <a className="px-3 py-5 hover:bg-slate-200" href="#contact">
+         <a className="px-3 py-5 hover:bg-slate-300" href="#contact">
           Contact
          </a>
         </div>
     </div>
 
-    <div id="mobile-links" className="hidden bg-slate-400 flex-col px-3 py-2">
-     <div><a href="#home">Home</a></div>
-     <div><a href="#about">About</a></div>
-     <div><a href="#services">Services</a></div>
-     <div><a href="#pricing">Pricing</a></div>
-     <div><a href="#contact">Contact</a></div>
+    <div id="mobile-links" className="text-center text-white font-semibold hidden bg-slate-500 flex-col"> 
+     <div className="hover:bg-slate-300 hover:text-slate-700 p-2"><a href="#home">Home</a></div>
+     <div className="hover:bg-slate-300 hover:text-slate-700 p-2"><a href="#about">About</a></div>
+     <div className="hover:bg-slate-300 hover:text-slate-700 p-2"><a href="#services">Services</a></div>
+     <div className="hover:bg-slate-300 hover:text-slate-700 p-2"><a href="#pricing">Pricing</a></div>
+     <div className="hover:bg-slate-300 hover:text-slate-700 p-2"><a href="#contact">Contact</a></div>
     </div>
 
    </nav>
