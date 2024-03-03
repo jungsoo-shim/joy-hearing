@@ -4,7 +4,6 @@ export default function Navbar() {
 
  function toggleMenu() {
      var menu = document.getElementById("mobile-links");
-     var icon = document.getElementById("burger-icon");
      (menu.style.display === "block") ? menu.style.display = "none" : menu.style.display = "block"; 
  }
 
