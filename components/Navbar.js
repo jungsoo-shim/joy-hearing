@@ -19,7 +19,7 @@ export default function Navbar() {
          <h1 className="text-xl font-mono">Joy Hearing Aid Centre</h1>
         </div>
 
-        <div className="mx-2 py-3 flex items-center md:hidden hover:bg-slate-300">
+        <div className="p-2 flex items-center md:hidden hover:bg-slate-300">
          <button onClick={toggleMenu}>
          <BurgerMenuIcon />
          </button>
