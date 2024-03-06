@@ -15,17 +15,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="bg-slate-400 flex flex-col h-screen justify-between">
+      <div className="bg-slate-400 flex flex-col h-screen">
       <Navbar />
-      <main>
-        <div className="h-screen">
-          <Hero />
-          <About />
-          <Services />
-          <Pricing />
-          <Contact />
-        </div>
-      </main>
+      <Hero />
+      <About />
+      <Services />
+      <Pricing />
+      <Contact />
       <Footer />
       </div>
 
