@@ -8,7 +8,7 @@ export default function About() {
     }, []);
 
     return (
-        <div className="mt-auto items-center flex flex-col">
+        <div id="about" className="mt-auto h-screen flex flex-col items-center justify-center">
             <p>Hello, I'm James Shim.</p>
             <img className="max-w-16" src="joy-hearing-logo.svg"></img>
             <p>Seoul National University Institute of Technology, Department of Mechanical and Aerospace Engineering</p>

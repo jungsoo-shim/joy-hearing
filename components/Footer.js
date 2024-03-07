@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className='bg-white shadow px-2 py-3 mt-auto flex justify-center items-center'>
+      <footer className='bg-stone-200 shadow px-2 py-3 mt-auto flex justify-center items-center'>
         Copyright &copy; {currentYear} Joy Hearing Aid Centre
       </footer>
     </>
