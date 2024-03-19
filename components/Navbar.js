@@ -9,7 +9,7 @@ export default function Navbar() {
 
  return (
   <>
-   <nav className="w-screen position: fixed bg-white shadow flex flex-col">
+   <nav className="z-10 w-screen position: fixed bg-white shadow flex flex-col">
 
     <div className="flex justify-between items-center">
          <a className="flex py-3 items-center" href="#home">
