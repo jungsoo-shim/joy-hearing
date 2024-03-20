@@ -4,7 +4,6 @@ import Footer from '@components/Footer'
 import Hero from '@components/Hero'
 import About from '@components/About'
 import Services from '@components/Services'
-import Pricing from '@components/Pricing'
 import Contact from '@components/Contact'
 
 export default function Home() {
@@ -15,17 +14,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="bg-slate-400 flex flex-col h-screen justify-between">
+      <div className="flex flex-col">
       <Navbar />
-      <main>
-        <div className="h-screen">
-          <Hero />
-          <About />
-          <Services />
-          <Pricing />
-          <Contact />
-        </div>
-      </main>
+      <Hero />
+      <About />
+      <Services />
+      <Contact />
       <Footer />
       </div>
 
